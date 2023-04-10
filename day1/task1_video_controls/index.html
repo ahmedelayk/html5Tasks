@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>video constrols</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <section>
+    <video width="500" height="300" >
+      <source src="./vid.mp4">
+    </video>
+    <div>
+      <input class="playback" id="playback" type="range" min="0" value="0" step="0.1">
+      <span id="video-current-time">00</span>
+      <span>/</span>
+      <span id="video-duration">/00</span>
+    </div>
+    <div class="controlls">
+      <input type="button" value="Play">
+      <input type="button" value="stop">
+      <input type="button" value="<<">
+      <input type="button" value="<">
+      <input type="button" value=">">
+      <input type="button" value=">>">
+      <input id="volume" type="range" min="0" max="1" step="0.1">
+      <input type="button" value="Mute">
+    </div>
+    <label>
+      <label>speed: <input id="speed" type="range" min="0" max="10" value="1" step="0.2"></label>
+    </label>
+</section>
+
+  <script src="./main.js"></script>
+</body>
+</html>

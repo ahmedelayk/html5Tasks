@@ -1,0 +1,10 @@
+
+.playback {
+  width: 500px;
+}
+.controlls {
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
