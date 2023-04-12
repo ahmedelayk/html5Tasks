@@ -59,6 +59,3 @@ video_.addEventListener('timeupdate',function(){
   playbackRange.value = this.currentTime
   videoCurrentTime.innerHTML = Math.trunc((this.currentTime))
 })
-
-setTimeout(function(){
-},100)
