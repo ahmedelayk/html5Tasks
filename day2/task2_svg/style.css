@@ -1,0 +1,12 @@
+h3 {
+  font-size: 1.5rem;
+  font-family: sans-serif;
+}
+tspan {
+  font-size: 1.5rem;
+}
+
+math {
+  color: red;
+  font-size: 2rem;
+}
