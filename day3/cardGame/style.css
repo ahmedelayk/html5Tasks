@@ -1,0 +1,28 @@
+.spade {
+  width: 300px;
+  height: 450px;
+  border: 2px solid red;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.spade::before {
+  content: 'A';
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.spade::after {
+  content: 'A';
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 2rem;
+  font-weight: bold;
+}
